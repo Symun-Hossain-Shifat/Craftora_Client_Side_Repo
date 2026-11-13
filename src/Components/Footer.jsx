@@ -104,14 +104,7 @@ export default function Footer() {
                         ))}
                     </div>
 
-                    <a
-                        href={FACEBOOK_URL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mt-6 inline-block rounded-full bg-amber-50 px-5 py-2.5 text-sm font-semibold text-amber-950 transition hover:bg-amber-200"
-                    >
-                        DM to Order
-                    </a>
+
                 </div>
             </div>
 
