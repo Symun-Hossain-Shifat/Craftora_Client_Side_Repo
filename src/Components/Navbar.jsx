@@ -82,14 +82,12 @@ export default function Navbar() {
                     </Link>
 
                     {/* Sign In */}
-                    <a
-                        href={FACEBOOK_URL}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <Link href={'/Signin'}
+
                         className="ml-1 rounded-full bg-amber-900 px-3 py-2 text-xs font-semibold text-amber-50 transition hover:bg-amber-800 sm:px-4 sm:text-sm"
                     >
                         Sign In
-                    </a>
+                    </Link>
                 </div>
             </nav>
 

@@ -178,7 +178,7 @@ export default function AboutPage() {
                     </p>
                     <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
                         <a
-                            href={FACEBOOK_URL}
+                            href='https://www.facebook.com/p/Craftora-61596342392834/'
                             target="_blank"
                             rel="noopener noreferrer"
                             className="rounded-full bg-amber-50 px-6 py-3 text-sm font-semibold text-amber-900 transition hover:bg-white"
@@ -186,7 +186,7 @@ export default function AboutPage() {
                             Order via Facebook
                         </a>
                         <Link
-                            href="/shop"
+                            href="/"
                             className="rounded-full border border-amber-50/40 px-6 py-3 text-sm font-semibold text-amber-50 transition hover:bg-amber-50/10"
                         >
                             Browse the Shop
