@@ -3,11 +3,11 @@ import Link from "next/link";
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61596342392834";
 
 const QUICK_LINKS = [
-    { label: "Home", href: "/" },
-    { label: "Shop", href: "/shop" },
-    { label: "Categories", href: "/categories" },
-    { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
+    { label: "Privacy Policy", href: "/" },
+    { label: "Return Policy", href: "/shop" },
+    { label: " Our Blog", href: "/categories" },
+    { label: "About Us", href: "/About" },
+    { label: "Contact Us", href: "/contact" },
 ];
 
 const SOCIALS = [
