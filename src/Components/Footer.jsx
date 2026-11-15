@@ -7,7 +7,7 @@ const QUICK_LINKS = [
     { label: "Return Policy", href: "/shop" },
     { label: " Our Blog", href: "/categories" },
     { label: "About Us", href: "/About" },
-    { label: "Contact Us", href: "/contact" },
+    { label: "Contact Us", href: "/Contact" },
 ];
 
 const SOCIALS = [
