@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 
-const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61596342392834";
+const FACEBOOK_URL = "https://www.facebook.com/p/Craftora-61596342392834/";
 
 // TODO: replace these placeholders with your real details
-const EMAIL = "your-email@example.com";
-const PHONE = "+880 1XXX-XXXXXX";
-const ADDRESS = "Dhaka, Bangladesh";
+const EMAIL = "saymonshifat569625@gmail.com";
+const PHONE = "+880 161905016";
+const ADDRESS = "Rampura , Dhaka, Bangladesh";
 const HOURS = "Sat – Thu, 10:00 AM – 8:00 PM";
 
 const Icon = ({ children }) => (
