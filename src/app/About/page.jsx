@@ -1,5 +1,6 @@
 import Link from "next/link";
-
+import behindthescene from '@/Assets/behindthescene.jpg'
+import Image from "next/image";
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61596342392834";
 
 export const metadata = {
@@ -65,37 +66,48 @@ export default function AboutPage() {
                 </div>
             </section>
 
-            {/* Our story */}
-            <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-                <div className="grid items-center gap-10 md:grid-cols-2">
-                    <div className="flex aspect-[4/3] items-center justify-center rounded-3xl border border-amber-900/10 bg-gradient-to-br from-amber-200 to-amber-100 shadow-sm">
-                        {/* Replace this block with <Image /> of your workshop or products */}
-                        <span className="text-6xl font-extrabold tracking-widest text-amber-900/30">
-                            C
-                        </span>
-                    </div>
+           {/* Our story */}
+<section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+  <div className="grid items-center gap-10 md:grid-cols-2 lg:gap-16">
+    {/* Image */}
+    <div className="relative">
+     
+      <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-lg ring-1 ring-amber-900/10">
+        <Image
+          src={behindthescene}
+          alt="A Craftora artisan shaping a handmade jute product"
+          fill
+          sizes="(min-width: 768px) 50vw, 100vw"
+          className="object-cover transition-transform duration-500 hover:scale-105"
+        />
+      </div>
+    </div>
 
-                    <div>
-                        <h2 className="text-2xl font-bold text-amber-900 sm:text-3xl">
-                            Our Story
-                        </h2>
-                        <div className="mt-4 space-y-4 leading-relaxed text-amber-900/80">
-                            <p>
-                                Craftora began with a simple belief: everyday products can be
-                                beautiful and kind to the earth at the same time. We work with
-                                jute, a golden natural fiber, and turn it into useful,
-                                stylish creations.
-                            </p>
-                            <p>
-                                Every product is made by hand, with attention to detail and a
-                                love for the craft. We want to bring the warmth of handmade
-                                work into your home and your daily life.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    {/* Text */}
+    <div>
+      <p className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-700">
+        Who we are
+      </p>
+      <h2 className="mt-2 text-2xl font-bold text-amber-900 sm:text-3xl lg:text-4xl">
+        Our Story
+      </h2>
+      <div className="mt-2 h-1 w-14 rounded-full bg-amber-600" />
 
+      <div className="mt-6 space-y-4 leading-relaxed text-amber-900/80">
+        <p>
+          Craftora began with a simple belief: everyday products can be
+          beautiful and kind to the earth at the same time. We work with jute,
+          a golden natural fiber, and turn it into useful, stylish creations.
+        </p>
+        <p>
+          Every product is made by hand, with attention to detail and a love
+          for the craft. We want to bring the warmth of handmade work into your
+          home and your daily life.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
             {/* Values */}
             <section className="border-y border-amber-900/10 bg-white/60">
                 <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
