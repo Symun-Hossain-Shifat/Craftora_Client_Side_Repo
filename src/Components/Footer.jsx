@@ -4,7 +4,7 @@ const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61596342392834";
 
 const QUICK_LINKS = [
     { label: "Privacy Policy", href: "/Privacy" },
-    { label: "Return Policy", href: "/shop" },
+    { label: "Return Policy", href: "/Return" },
     { label: " Our Blog", href: "/Blog" },
     { label: "About Us", href: "/About" },
     { label: "Contact Us", href: "/Contact" },
