@@ -6,7 +6,7 @@ const FACEBOOK_URL = "https://www.facebook.com/p/Craftora-61596342392834/";
 
 // TODO: replace these placeholders with your real details
 const EMAIL = "saymonshifat569625@gmail.com";
-const PHONE = "+880 161905016";
+const PHONE = "+880 1619050716";
 const ADDRESS = "Rampura , Dhaka, Bangladesh";
 const HOURS = "Sat – Thu, 10:00 AM – 8:00 PM";
 

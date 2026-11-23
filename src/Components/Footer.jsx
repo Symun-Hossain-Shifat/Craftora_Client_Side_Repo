@@ -3,7 +3,7 @@ import Link from "next/link";
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61596342392834";
 
 const QUICK_LINKS = [
-    { label: "Privacy Policy", href: "/" },
+    { label: "Privacy Policy", href: "/Privacy" },
     { label: "Return Policy", href: "/shop" },
     { label: " Our Blog", href: "/Blog" },
     { label: "About Us", href: "/About" },
